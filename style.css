@@ -1,0 +1,70 @@
+/*use border box for modern day*/
+* {
+  box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    padding: 15px 10px;
+}
+
+/*numpuk ngapung ke kanan*/
+nav {
+  float: right;
+}
+
+/*membuat jadi engga list*/
+ul li {
+  float: left;
+}
+
+/*erase black point*/
+ul {
+  list-style-type: none;
+}
+
+/*make have space and inline with the header*/
+li {
+  display: inline-block;
+  padding: 2px 2px;
+  margin: 1px 3px;
+}
+
+body {
+  font-family:  sans-serif;
+  background-image: url("img/sample-pattern.png"); /* no "/" */
+}
+
+h1 {
+  color: darkslategray;
+  font-size: 30px;
+  padding: 0px 20px 20px 20px;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+.article {
+  text-align: justify;
+  padding: 2px 150px 50px 150px;
+}
+
+/*add featured-article class on html*/
+.featured-article {
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+}
